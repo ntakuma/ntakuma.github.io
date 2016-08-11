@@ -1,0 +1,78 @@
+h1 {
+	opacity: 0.6;
+}
+
+h6 {
+	color: white;
+	opacity: .5;
+}
+
+p {
+	font-family: 'Sintony', sans-serif;
+	font-size: 5rem;
+	opacity: 0.6;
+	color: white;
+}
+
+body {
+	background: #FFF;
+	font-family: 'Sintony', sans-serif;
+}
+
+#about-me {
+	color: purple;
+	text-align: center;
+	margin-top: 0;
+	min-height: 50vh;
+	background: grey;
+	margin: -50;
+	padding: -50;
+	border: -50;
+}
+
+#pictures {
+	display:inline;
+}
+
+.jumbotron {
+	background: url('../img/mountain.jpeg');
+	margin-top: 0%;
+	margin-bottom: 0%;
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+/*background-attachment: fixed*/
+}
+
+div.jumbotron h1 {
+	color: white;
+	text-align: center;
+	font-family: 'Sintony', sans-serif;
+}
+
+.haze {
+	background: rgba(255, 255, 255, 0);
+	background-size: cover;
+	margin-bottom: 500px;
+	height: 50vh;
+}
+
+div.container ul {
+	list-style: none;
+	margin: 20px 0;
+}
+
+div.container ul li {
+	display: inline-block;
+	margin: 0 20px;
+	text-decoration: none;
+}
+
+div.projects {
+	font-size: 30px;
+}
+
+li a:hover {
+	text-decoration: none;
+}
